@@ -1,0 +1,13 @@
+<!--player.wxml-->
+<template name="player">
+  <view class="player-container">
+    <view class="user-info">
+      <image class="user-avatar" src="../image/stop.png"></image>
+      <text class="user-name">{{userId}}</text>
+      <text class="user-songs-number">第{{totalNum}}首</text>
+      <text class="user-rank-id">No.{{rankId}}</text>
+
+    </view>
+    <text class="song-name">——“{{songsList[0]}}”——</text>
+  </view>
+</template>

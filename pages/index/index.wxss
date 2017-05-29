@@ -1,0 +1,60 @@
+/**index.wxss**/
+@import "../player/player-template.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100rpx;
+  /*padding: 200rpx 0;
+  box-sizing: border-box;*/
+} 
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play-song-icon {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 1rpx solid #aaa;
+}
+
+.hint-info {
+  color: #aaa;
+  font-size: 24rpx;
+}
+
+.input-song-name{
+  text-align: center;
+  font-size: 48rpx;
+  margin-top: 200rpx;
+  font-weight: 100;
+  height: 96rpx;
+  width: 600rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #aaa;
+
+}
+
+.players-list{
+  width: 600rpx;
+  height: 400rpx;
+  margin-top: 100rpx;
+  border: 1rpx dotted #aaa;
+  border-radius: 10rpx;
+  overflow: scroll;
+  
+}
+
+.background-total-num{
+  position: absolute;
+  font-size: 500rpx;
+  color: #eee;
+  z-index: -1;
+}

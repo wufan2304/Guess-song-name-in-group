@@ -1,0 +1,43 @@
+/* player.wxss */
+.player-container{
+  border: 1px solid #aaa;
+  border-radius: 10rpx;
+  margin: 20rpx;
+  text-align: center;
+}
+
+.user-info{
+  font-size: 24rpx;
+  display: flex;
+  align-items: center;
+  margin: 20rpx 20rpx 0 20rpx;
+  position: relative;
+}
+
+.user-avatar{
+  height: 48rpx;
+  width: 48rpx;
+  border-radius: 50%;
+  border: 1rpx solid red;
+}
+
+.user-name{
+  margin-left: 10rpx;
+}
+
+.song-name{
+  color: #555;
+  font-size: 24rpx;  
+  line-height: 24rpx;
+}
+
+.user-songs-number{
+  color: #999;
+  margin-left: 30rpx;
+  position: absolute;
+  right: 0;
+}
+
+.user-rank-id{
+  margin-left: 20rpx;
+}

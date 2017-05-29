@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<import src="../player/player-template.wxml"/>
+
+<view class="container">
+  <view  bindtap="bindViewTap" class="music-container">
+    <image class="play-song-icon" bindtap="bindPlayMusic" src="../image/play.png" background-size="cover"></image>
+    <text class="hint-info">正在猜第57首歌，剩余2次播放</text>
+    <input class="input-song-name" placeholder="请输入歌名"/>
+  </view>
+  <view class="players-list">
+    <template wx:for="{{usersSongInfo}}" is="player" data="{{...item}}"></template>
+  </view>
+  <text class="background-total-num">57</text>
+</view>
